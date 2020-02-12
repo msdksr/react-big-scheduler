@@ -35,7 +35,7 @@ class BodyView extends Component {
                     if (!!cellBgColor) nonClass = config.nonWorkingTimeBodyBgClass;
                 }
                 return (
-                    <td key={key} style={style}><div></div></td>
+                    <td key={key} style={style} className={nonClass}><div></div></td>
                 )
             });
 
